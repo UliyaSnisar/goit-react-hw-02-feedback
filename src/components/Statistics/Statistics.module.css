@@ -1,0 +1,28 @@
+.statisticsWraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.goodFeedbackStyle {
+  color: rgb(38, 184, 77);
+}
+
+.neutralFeedbackStyle {
+  color: rgb(89, 191, 238);
+}
+
+.badFeedbackStyle {
+  color: rgb(190, 32, 4);
+}
+
+.total {
+  margin: 0;
+  padding: 20px 0;
+  color: rgb(89, 2, 189);
+}
+
+.percentage {
+  color: rgb(89, 2, 189);
+}

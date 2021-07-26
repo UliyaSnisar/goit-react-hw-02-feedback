@@ -1,0 +1,29 @@
+.container {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  display: inline-block;
+  width: 120px;
+  height: 80px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  color: #ffffff;
+  background: #b42ccf;
+  border: 0;
+  transition: 0.2s;
+}
+.button:hover,
+.button:focus {
+  background: #d499e0;
+  box-shadow: 0 5px 10px rgba(72, 12, 87, 0.94);
+  color: white;
+  transform: scale(1.2);
+}

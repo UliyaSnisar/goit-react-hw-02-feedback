@@ -1,0 +1,9 @@
+.title {
+  margin: 0;
+  padding: 20px 0;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: rgb(96, 22, 156);
+  text-align: center;
+}
